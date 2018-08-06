@@ -61,6 +61,18 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.Symbol7 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("EgfvA4QMAAAhwfMA/fAAAMAAABwfg");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol7, new cjs.Rectangle(-203.2,-360,406.4,720), null);
+
+
 (lib.Symbol6 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -140,6 +152,26 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.ADVanimation = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_179 = function() {
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.movieClip_1.addEventListener("click", fl_ClickToGoToWebPage);
+		
+		function fl_ClickToGoToWebPage() {
+			window.open("/incentives/see-more-with-huawei-adv/destinations/", "_self");
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(179).call(this.frame_179).wait(1));
+
 	// Iceland front
 	this.instance = new lib.Symbol4();
 	this.instance.parent = this;
@@ -188,8 +220,16 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(110).to({_off:false},0).wait(1).to({x:573.8},0).wait(1).to({x:540},0).wait(1).to({x:506.3},0).wait(1).to({x:472.5},0).wait(1).to({x:438.8},0).wait(1).to({x:405},0).wait(1).to({x:371.3},0).wait(1).to({x:337.5},0).wait(1).to({x:303.8},0).wait(1).to({x:270},0).wait(1).to({x:236.3},0).wait(1).to({x:202.5},0).wait(46).to({x:168.8},0).wait(1).to({x:135},0).wait(1).to({x:101.3},0).wait(1).to({x:67.5},0).wait(1).to({x:33.8},0).wait(1).to({x:0},0).wait(1).to({x:-33.7},0).wait(1).to({x:-67.5},0).wait(1).to({x:-101.2},0).wait(1).to({x:-135},0).wait(1).to({x:-168.7},0).wait(1).to({x:-202.5},0).wait(1));
 
+	// Layer_7
+	this.movieClip_1 = new lib.Symbol7();
+	this.movieClip_1.name = "movieClip_1";
+	this.movieClip_1.parent = this;
+	this.movieClip_1.setTransform(201.8,360);
+
+	this.timeline.addTween(cjs.Tween.get(this.movieClip_1).wait(180));
+
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(202.5,359.5,406,719);
+p.nominalBounds = new cjs.Rectangle(201.1,359.5,407.4,720);
 // library properties:
 lib.properties = {
 	id: '3300B77938CE4BAFBA160915F489285B',
