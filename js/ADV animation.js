@@ -177,7 +177,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,406.4,720);
 		   Keep the quotation marks ("").
 		*/
 		
-		this.movieClip_1.addEventListener("click", fl_ClickToGoToWebPage);
+		this.button_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
 			window.open("http://www.o2bebrilliant.com/incentives/see-more-with-huawei-adv/destinations/", "_self");
@@ -188,61 +188,62 @@ p.nominalBounds = new cjs.Rectangle(0,0,406.4,720);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(180));
 
 	// Layer_7
-	this.instance = new lib.Symbol8();
-	this.instance.parent = this;
-	this.instance.setTransform(201.8,360,1,1,0,0,0,203.2,360);
-	this.instance.alpha = 0.02;
-	new cjs.ButtonHelper(this.instance, 0, 1, 1);
+	this.button_1 = new lib.Symbol8();
+	this.button_1.name = "button_1";
+	this.button_1.parent = this;
+	this.button_1.setTransform(201.8,360,1,1,0,0,0,203.2,360);
+	this.button_1.alpha = 0.02;
+	new cjs.ButtonHelper(this.button_1, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(180));
+	this.timeline.addTween(cjs.Tween.get(this.button_1).wait(180));
 
 	// Iceland front
-	this.instance_1 = new lib.Symbol4();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(203.5,360.5,1,1,0,0,0,202.5,359.5);
+	this.instance = new lib.Symbol4();
+	this.instance.parent = this;
+	this.instance.setTransform(203.5,360.5,1,1,0,0,0,202.5,359.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:201.5,regY:358.5,x:202.5,y:359.5},0).wait(47).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(107).to({_off:false,regX:202.5,regY:359.5,x:203.5,y:360.5},0).wait(1).to({regX:201.5,regY:358.5,x:202.5,y:359.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:201.5,regY:358.5,x:202.5,y:359.5},0).wait(47).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(107).to({_off:false,regX:202.5,regY:359.5,x:203.5,y:360.5},0).wait(1).to({regX:201.5,regY:358.5,x:202.5,y:359.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(1));
 
 	// Santorini front
-	this.instance_2 = new lib.Symbol2();
+	this.instance_1 = new lib.Symbol2();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(203.5,359.5,1,1,0,0,0,202.5,359.5);
+	this.instance_1.alpha = 0;
+	this.instance_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).wait(1).to({regX:201.5,x:202.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(52).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(57));
+
+	// Abu dhabi front
+	this.instance_2 = new lib.Symbol5();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(203.5,359.5,1,1,0,0,0,202.5,359.5);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(47).to({_off:false},0).wait(1).to({regX:201.5,x:202.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(52).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(57));
-
-	// Abu dhabi front
-	this.instance_3 = new lib.Symbol5();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(203.5,359.5,1,1,0,0,0,202.5,359.5);
-	this.instance_3.alpha = 0;
-	this.instance_3._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(110).to({_off:false},0).wait(1).to({regX:201.5,x:202.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(46).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(110).to({_off:false},0).wait(1).to({regX:201.5,x:202.5,alpha:0.083},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.917},0).wait(1).to({alpha:1},0).wait(46).to({alpha:0.917},0).wait(1).to({alpha:0.833},0).wait(1).to({alpha:0.75},0).wait(1).to({alpha:0.667},0).wait(1).to({alpha:0.583},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.417},0).wait(1).to({alpha:0.333},0).wait(1).to({alpha:0.25},0).wait(1).to({alpha:0.167},0).wait(1).to({alpha:0.083},0).wait(1).to({alpha:0},0).wait(1));
 
 	// Iceland
-	this.instance_4 = new lib.Symbol1();
-	this.instance_4.parent = this;
-	this.instance_4.setTransform(203.5,359.5,1,1,0,0,0,202.5,359.5);
+	this.instance_3 = new lib.Symbol1();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(203.5,359.5,1,1,0,0,0,202.5,359.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(48).to({x:169.8},0).wait(1).to({x:136},0).wait(1).to({x:102.3},0).wait(1).to({x:68.5},0).wait(1).to({x:34.8},0).wait(1).to({x:1},0).wait(1).to({x:-32.7},0).wait(1).to({x:-66.5},0).wait(1).to({x:-100.2},0).wait(1).to({x:-134},0).wait(1).to({x:-167.7},0).wait(1).to({x:-201.5},0).to({_off:true},1).wait(107).to({_off:false,x:607.5},0).wait(1).to({x:573.8},0).wait(1).to({x:540},0).wait(1).to({x:506.3},0).wait(1).to({x:472.5},0).wait(1).to({x:438.8},0).wait(1).to({x:405},0).wait(1).to({x:371.3},0).wait(1).to({x:337.5},0).wait(1).to({x:303.8},0).wait(1).to({x:270},0).wait(1).to({x:236.3},0).wait(1).to({x:202.5},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(48).to({x:169.8},0).wait(1).to({x:136},0).wait(1).to({x:102.3},0).wait(1).to({x:68.5},0).wait(1).to({x:34.8},0).wait(1).to({x:1},0).wait(1).to({x:-32.7},0).wait(1).to({x:-66.5},0).wait(1).to({x:-100.2},0).wait(1).to({x:-134},0).wait(1).to({x:-167.7},0).wait(1).to({x:-201.5},0).to({_off:true},1).wait(107).to({_off:false,x:607.5},0).wait(1).to({x:573.8},0).wait(1).to({x:540},0).wait(1).to({x:506.3},0).wait(1).to({x:472.5},0).wait(1).to({x:438.8},0).wait(1).to({x:405},0).wait(1).to({x:371.3},0).wait(1).to({x:337.5},0).wait(1).to({x:303.8},0).wait(1).to({x:270},0).wait(1).to({x:236.3},0).wait(1).to({x:202.5},0).wait(1));
 
 	// Santorini
-	this.instance_5 = new lib.Symbol3();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(608.5,355.5,1,1,0,0,0,202.5,354.5);
-	this.instance_5._off = true;
+	this.instance_4 = new lib.Symbol3();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(608.5,355.5,1,1,0,0,0,202.5,354.5);
+	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({_off:false},0).wait(1).to({x:574.7,y:355.4},0).wait(1).to({x:540.8,y:355.3},0).wait(1).to({x:507},0).wait(1).to({x:473.2,y:355.2},0).wait(1).to({x:439.3,y:355.1},0).wait(1).to({x:405.5,y:355},0).wait(1).to({x:371.7,y:354.9},0).wait(1).to({x:337.8,y:354.8},0).wait(1).to({x:304},0).wait(1).to({x:270.2,y:354.7},0).wait(1).to({x:236.3,y:354.6},0).wait(1).to({x:202.5,y:354.5},0).wait(52).to({x:168.7},0).wait(1).to({x:134.9},0).wait(1).to({x:101},0).wait(1).to({x:67.2},0).wait(1).to({x:33.3},0).wait(1).to({x:-0.5},0).wait(1).to({x:-34.3},0).wait(1).to({x:-68.2},0).wait(1).to({x:-102},0).wait(1).to({x:-135.9},0).wait(1).to({x:-169.7},0).wait(1).to({x:-203.6},0).to({_off:true},1).wait(57));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(47).to({_off:false},0).wait(1).to({x:574.7,y:355.4},0).wait(1).to({x:540.8,y:355.3},0).wait(1).to({x:507},0).wait(1).to({x:473.2,y:355.2},0).wait(1).to({x:439.3,y:355.1},0).wait(1).to({x:405.5,y:355},0).wait(1).to({x:371.7,y:354.9},0).wait(1).to({x:337.8,y:354.8},0).wait(1).to({x:304},0).wait(1).to({x:270.2,y:354.7},0).wait(1).to({x:236.3,y:354.6},0).wait(1).to({x:202.5,y:354.5},0).wait(52).to({x:168.7},0).wait(1).to({x:134.9},0).wait(1).to({x:101},0).wait(1).to({x:67.2},0).wait(1).to({x:33.3},0).wait(1).to({x:-0.5},0).wait(1).to({x:-34.3},0).wait(1).to({x:-68.2},0).wait(1).to({x:-102},0).wait(1).to({x:-135.9},0).wait(1).to({x:-169.7},0).wait(1).to({x:-203.6},0).to({_off:true},1).wait(57));
 
 	// Abu Dhabi
-	this.instance_6 = new lib.Symbol6();
-	this.instance_6.parent = this;
-	this.instance_6.setTransform(607.5,359.5,1,1,0,0,0,202.5,359.5);
-	this.instance_6._off = true;
+	this.instance_5 = new lib.Symbol6();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(607.5,359.5,1,1,0,0,0,202.5,359.5);
+	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(110).to({_off:false},0).wait(1).to({x:573.8},0).wait(1).to({x:540},0).wait(1).to({x:506.3},0).wait(1).to({x:472.5},0).wait(1).to({x:438.8},0).wait(1).to({x:405},0).wait(1).to({x:371.3},0).wait(1).to({x:337.5},0).wait(1).to({x:303.8},0).wait(1).to({x:270},0).wait(1).to({x:236.3},0).wait(1).to({x:202.5},0).wait(46).to({x:168.8},0).wait(1).to({x:135},0).wait(1).to({x:101.3},0).wait(1).to({x:67.5},0).wait(1).to({x:33.8},0).wait(1).to({x:0},0).wait(1).to({x:-33.7},0).wait(1).to({x:-67.5},0).wait(1).to({x:-101.2},0).wait(1).to({x:-135},0).wait(1).to({x:-168.7},0).wait(1).to({x:-202.5},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(110).to({_off:false},0).wait(1).to({x:573.8},0).wait(1).to({x:540},0).wait(1).to({x:506.3},0).wait(1).to({x:472.5},0).wait(1).to({x:438.8},0).wait(1).to({x:405},0).wait(1).to({x:371.3},0).wait(1).to({x:337.5},0).wait(1).to({x:303.8},0).wait(1).to({x:270},0).wait(1).to({x:236.3},0).wait(1).to({x:202.5},0).wait(46).to({x:168.8},0).wait(1).to({x:135},0).wait(1).to({x:101.3},0).wait(1).to({x:67.5},0).wait(1).to({x:33.8},0).wait(1).to({x:0},0).wait(1).to({x:-33.7},0).wait(1).to({x:-67.5},0).wait(1).to({x:-101.2},0).wait(1).to({x:-135},0).wait(1).to({x:-168.7},0).wait(1).to({x:-202.5},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(201.1,359.5,407.4,720);
